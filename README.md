@@ -1,2 +1,2 @@
 # Newverse_project
-a socail media app im creating to learn some frontend
+a social media website im creating to learn some frontend stuff
