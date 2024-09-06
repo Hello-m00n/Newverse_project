@@ -1,0 +1,39 @@
+@font-face {
+  font-family:pixelfont;
+  src: url(../fonts/ari-w9500-condensed.ttf);
+}
+
+:root {
+  --font: pixelfont;
+  --color: aliceblue;
+  --backgroundcolor: #111;
+  --border_type1: solid 1px var(--color);
+}
+
+body{
+  background-color: var(--backgroundcolor);
+  color: var(--color);
+  font-family: var(--font);
+}
+
+.enterbox {
+  border: var(--border_type1);
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 10%;
+  background-color: var(--backgroundcolor);
+  padding: 10px;
+  text-align: center;
+}
+
+button {
+  background-color: inherit;
+  color: inherit;
+  font-family: inherit;
+}
+
+input {
+  background-color: inherit;
+  color: inherit;
+  font-family: inherit;
+}

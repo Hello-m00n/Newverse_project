@@ -1,0 +1,61 @@
+@font-face {
+  font-family:pixelfont;
+  src: url(../fonts/ari-w9500-condensed.ttf);
+}
+
+:root {
+  --font: pixelfont;
+  --color: aliceblue;
+  --backgroundcolor: #111;
+  --border_type1: solid 1px var(--color);
+}
+
+body{
+  background-color: var(--backgroundcolor);
+  color: var(--color);
+  font-family: var(--font);
+}
+
+.l_sidebar {
+  color: var(--color);
+  height: 100%;
+  width: 10%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: var(--backgroundcolor);
+  overflow-x: hidden;
+  padding-top: 7px;
+  padding-left: 15%;
+  border: var(--border_type1);
+  border-top: hidden;
+  border-bottom: hidden;
+  border-left: hidden;
+  line-height: 30px;
+  list-style-type: none;
+}
+
+.r_sidebar {
+  color: var(--color);
+  height: 100%;
+  width: 10%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: var(--backgroundcolor);
+  overflow-x: hidden;
+  padding-top: 20px;
+  padding-right: 13%;
+  padding-left: 2%;
+  border: var(--border_type1);
+  border-top: hidden;
+  border-bottom: hidden;
+  border-right: hidden;
+  line-height: 30px;
+}
+
+.page {
+  margin-left: 26%;
+}
